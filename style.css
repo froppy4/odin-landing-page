@@ -1,24 +1,136 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 100%;
     margin: 0;
 }
 
-a {
-    text-decoration: none;
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex:none;
+    height: 100%;
 }
 
-.header { 
+img {
+
+height: 200px;
+width:auto;
+border-radius: 30px;
+border: 3px solid black;
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+}
+/*
+.fixed-bg {
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/* This is for scrolling background
+.context {
+    background-image: url(./pictures/badatgames.jpg);
+}
+
+.quote {
+    background-image: url(./pictures/wasted.jpeg);
+}
+*/
+
+.fixed-bg {
     display: flex;
-    background-color: darkgreen;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.context{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.quote{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+/*
+.card {
+    height: 150px;
+    width: 150px;
+    background-color: black;
+}
+*/
+
+.char {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.char-text {
+    width: 150px;
+
+}
+
+.title{
+    font-size: 30px;
+}
+
+.pictures{
+    background-color: #00d78c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.char-wrap {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.header,.footer {
+    height: 100px;
+    background-color: #00664d;
+    color: white;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    gap:15px;
+    justify-content: space-between;
+    padding: 0 120px 0 120px;
+
+}
+
+.head-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgreen;
 }
+
+a {
+    text-decoration: none;
+    color: white
+}
+
