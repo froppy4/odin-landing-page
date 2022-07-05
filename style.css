@@ -23,35 +23,49 @@ border: 3px solid black;
     height: 75px;
     width: auto;
 }
-/*
+
 .fixed-bg {
-    height: 100vh;
+    height: 60vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
-/* This is for scrolling background
+
 .context {
-    background-image: url(./pictures/badatgames.jpg);
+    background-image: url(./pictures/wasted.jpeg);
 }
 
 .quote {
-    background-image: url(./pictures/wasted.jpeg);
+    background-image: url(./pictures/reincliff.jpg);
 }
-*/
+
 
 .fixed-bg {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .context{
     height: 100vh;
     display: flex;
     justify-content: center;
+    font-size: 35px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding: 0 200px 0 200px;
+
+}
+
+.sign-up-wrap {
+    background-color: rgb(1, 179, 179);
+    border: 5px solid teal;
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    gap:25px;
+    border-radius: 30px;
 }
 
 .quote{
@@ -59,7 +73,10 @@ border: 3px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
+    font-size: 35px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding: 0 200px 0 200px;
 }
 
 /*
